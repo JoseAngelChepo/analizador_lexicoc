@@ -1,0 +1,24 @@
+A = (l*l) * 6
+V = l3
+
+PROGRAM EJER12; 
+        USES CRT;
+        VAR lado:REAL;
+        VAR area,volumen:REAL;
+	$
+
+BEGIN
+        lado:=4;
+
+        area:= (lado * lado) * 6;
+        volumen:= sqr(lado) * lado;
+
+        ClrScr;
+
+        write('AREA DEL HEXAEDRO');    
+        write(area);    
+        writeln(' m2');
+        write('VOLUMEN DEL HEXAEDRO');
+        write (volumen); write (' m3');
+
+END.
